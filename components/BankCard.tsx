@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-
 const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) => {
 
   console.log(account);
@@ -59,7 +58,6 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
           className="absolute top-0 left-0"
         />
       </Link>
-
     </div>
   )
 }
